@@ -99,4 +99,6 @@ steps:
     - 'TF_VAR_service_account_email=$_SERVICE_ACCOUNT_EMAIL'
     - 'TF_VAR_source_gcs_bucket=$_SOURCE_GCS_BUCKET'
     - 'TF_VAR_region=$_REGION'
+ options:
+ logging: CLOUD_LOGGING_ONLY
 # [END tf-apply]      
